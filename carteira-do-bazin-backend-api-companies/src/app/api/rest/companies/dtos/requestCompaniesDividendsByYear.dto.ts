@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsPositive, Min } from "class-validator";
+import { IsNotEmpty, IsPositive } from "class-validator";
 
 export class RequestCompaniesDividendsByYearDto {
     @IsNotEmpty({ message: "O campo 'value' é obrigatório no corpo da requisição." })
